@@ -1,0 +1,14 @@
+
+
+
+*{
+  color:#9bacc4;
+  box-sizing: border-box;
+  font-size: 18px;
+  animation: 1.5s ease-out 0s 1 slideInFromLeft;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0;   margin: 0;  margin: 0;font-family: Roboto, "Helvetica Neue", sans-serif; }
+
