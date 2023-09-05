@@ -56,7 +56,7 @@ ul li.nav-item  a:hover{
  /* toggle bar styles */
  .navbar-toggler.nav-toggle-btn {
   background: #159fdb;
-  padding: 25px 35px 21px 35px;
+  padding: 10px 10px 5px 10px;
   border: none;
   outline: unset;
   border-radius: 0px;
@@ -71,10 +71,10 @@ ul li.nav-item  a:hover{
  
  
  .navbar-toggler.nav-toggle-btn > .bar-line {
-  width: 42px;
+  width: 30px;
   height: 6px;
-  margin-bottom: 4px;
-  background-color: #fff;
+  margin-bottom: 3px;
+  background-color: #000;
  }
 
 
@@ -160,6 +160,87 @@ ul li.nav-item  a:hover{
     text-align: left;
     padding: 15px 10px 15px 0;
   }
+
+
+  /*  special perks styles  */
+
+
+  .special-perks .s-perks-wrapper{
+    margin:auto;
+    width:90%;
+    
+  }
+
+  .special-perks .image-card{
+    position: relative;
+    background: #095c91;
+    color: #fff;
+    padding: 10px 10px 0 10px;
+    margin: 0 10px 20px 0;
+    transition: all 1.5s ease-out;
+
+  }
+
+  .special-perks .image-card img{
+   
+    width:100%;
+    height: 350px;
+    object-fit: cover;
+    
+  }
+
+  h2.image-card-title{
+    color:#fff;
+    padding: 10px 0 5px 0;
+    font-weight: 400;
+  }
+
+  h2.move-top{
+    font-family: unset;
+    transform: translateY(-40px);
+  }
+
+
+  .special-perks .s-perks-wrapper .image-card-overlay{
+    position: absolute;  
+    width:0;
+    height: 0;
+   padding-top:150px;
+    top:12px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.7);    
+    z-index: 1; 
+    display: none;
+    transition:width all 2.5s ease-out;  
+    animation:expandoverlay forwards 0.5s ease-out;
+   }
+
+   .special-perks .s-perks-wrapper .image-card-overlay h2{
+    color: red;
+    margin-bottom: 50px;
+      
+   }
+
+   .special-perks .image-card:hover .image-card-overlay{
+    display: block;
+    width:98%;
+    height: 395px;
+    top:10px;
+   }
+
+   .special-perks .image-card:hover  h2.image-card-title{
+    visibility: hidden;
+    padding: unset;  
+
+   }
+
+   @keyframes expandoverlay{
+    from{transform: scale(0.5);}
+    to{ transform: scale(1);}
+    
+    
+   }
+
 
 
 
