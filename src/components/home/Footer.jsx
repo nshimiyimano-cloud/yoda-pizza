@@ -1,11 +1,8 @@
 import React from 'react';
 
 
-import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faPhone,
-  faMapMarker
-}
- from '@fortawesome/free-solid-svg-icons';
+
+ 
  import creatureImage1 from '../../assets/Images/creature-img1.jpg';
  import creatureImage2 from '../../assets/Images/creature-img2.jpg';
  import creatureImage3 from '../../assets/Images/creature-img3.jpg'
