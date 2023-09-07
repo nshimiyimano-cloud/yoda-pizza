@@ -310,6 +310,104 @@ ul li.nav-item  a:hover{
     background: #ff6900;;
    }
 
+   
+   /* stylinng for top-banner-slideshow */
+
+   .top-banner-slideshow{
+      transform: translateY(-55px);
+      position: relative;
+   }
+   .top-banner-slideshow img{
+    object-fit: cover;
+    width:100%;
+    object-position: center;
+    height: 650px;    
+   }
+
+
+   .top-banner-slideshow #letTopInSlide{
+    
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid #095c91;
+    height: 250px;
+    width: 33em;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.7);
+    left:20em;
+    top: 7em;
+    
+
+   }
+
+
+   .top-banner-slideshow #rightBottomInSlide{
+    position: absolute;
+    border: 8px solid #fff;
+    height: 170px;
+    width: 31em;
+    z-index: 2;
+    background: #095c91;
+    padding: 30px 0 0 10px;
+    bottom: 2em;
+    right: 22em;   
+    
+  }
+
+
+
+
+   .customers-comment{   
+  background-image: url("./assets/Images/comments-img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;   
+ 
+}
+
+.customers-comment .comment-box{
+  background-color: #000;
+  margin-bottom: 20px;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  width: 30%;
+  font-size: 24px;
+  padding: 20px;
+}
+.customers-comment .comment-box span{
+  color: #e11736;
+  font-size: 18px;
+
+}
+
+.client-wrapper{
+  width: 98%;
+  background: lime;
+}
+
+
+
+
+  @media only screen and (max-width: 950px) {
+
+    .top-banner-slideshow #letTopInSlide,.top-banner-slideshow #rightBottomInSlide{    
+    left: 20px;
+    right: unset;
+    width: 85%;
+
+   }
+   .customers-comment .comment-box{
+    width: 83%;
+   }
+   .customers-comment .comment-container {
+    flex-direction: column;
+    
+
+   }
+
+  }
+  
 
 
 

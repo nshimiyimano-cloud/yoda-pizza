@@ -15,11 +15,11 @@ import  {
 
 
 import './App.css'
+import "react-slideshow-image/dist/styles.css";
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
      <MainMenu/>
