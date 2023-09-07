@@ -16,6 +16,7 @@ import  {
 
 import './App.css'
 import "react-slideshow-image/dist/styles.css";
+import 'react-multi-carousel/lib/styles.css';
 
 
 function App() {
