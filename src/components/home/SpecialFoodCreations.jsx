@@ -22,7 +22,7 @@ function SpecialFoodCreations() {
           but you don't really want any dishes that stand out in a crowd of others.
            Enjoy the best of our menu, Chicken and Mushroom.</p>  
 
-           <a className='btn' href="">Order Now</a>                
+           <a className='btn' href="mennu">Order Now</a>                
 
         </div>
 
@@ -39,7 +39,7 @@ function SpecialFoodCreations() {
         <p>A wide variety of delicious vegetarian foods, including pizza,
            spaghetti sauce and so much more..</p>  
 
-           <a className='btn' href="">Order Now</a>           
+           <a className='btn' href="/menu">Order Now</a>           
 
         </div>
       </div>     
@@ -57,7 +57,7 @@ function SpecialFoodCreations() {
         <p>Quail eggs, Beef slices and whatever customizations you want
            from the menu to make a delicious pizza.</p>  
 
-           <a className='btn' href="">Order Now</a>           
+           <a className='btn' href="/menu">Order Now</a>           
 
         </div>
       </div>     
