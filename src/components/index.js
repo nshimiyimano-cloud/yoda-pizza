@@ -18,6 +18,7 @@ import rufNoImage from '../assets/Images/ruf.png';
 import angusImage from '../assets/Images/angus.png';
 import casperImage from '../assets/Images/casper.png';
 
+<<<<<<< HEAD
 
 
 /* Images for blog */
@@ -41,6 +42,8 @@ import capturaDeTela2 from '../assets/Images/blog_images/Captura-de-tela-RNB-TRI
 
 
 
+=======
+>>>>>>> 524d5b8f828a6776cdb1810b5c53b1a4429592d4
 
 
 export {
@@ -59,6 +62,7 @@ export {
 
 
 
+<<<<<<< HEAD
 
 
 export const blogPost=[
@@ -161,6 +165,8 @@ export const blogPost=[
 
 
 
+=======
+>>>>>>> 524d5b8f828a6776cdb1810b5c53b1a4429592d4
 /*  all data will be needed/used on clients testimonial is here */
 
 const testimonials=[
@@ -257,6 +263,7 @@ const testimonials=[
   }
   };
 
+<<<<<<< HEAD
 
 /*  all datas about menu */
 
@@ -420,6 +427,8 @@ export const otherDrinks=[
 
 
 
+=======
+>>>>>>> 524d5b8f828a6776cdb1810b5c53b1a4429592d4
  export default testimonials;
  
 
