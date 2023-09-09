@@ -1,8 +1,7 @@
-import { useState } from 'react'
+import React,{useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import  { 
-  MainMenu,
   TopBannerSlideshow,
   SpecialFoodCreations,
   LetChat,
@@ -10,19 +9,18 @@ import  {
   FatsestDelivery,
   CustomersComments,
   OurPlaces,
-  Footer
  } from './components/index';
 
 
 import './App.css'
+import "react-slideshow-image/dist/styles.css";
+import 'react-multi-carousel/lib/styles.css';
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-     <MainMenu/>
      <TopBannerSlideshow/>
      <SpecialFoodCreations/>
      <LetChat/>
@@ -30,8 +28,7 @@ function App() {
      <FatsestDelivery/>
      <CustomersComments/>
      <OurPlaces/>
-     <Footer/>
-       
+         
     </>
   )
 }

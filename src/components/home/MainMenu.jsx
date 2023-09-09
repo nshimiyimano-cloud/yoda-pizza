@@ -25,19 +25,19 @@ function MainMenu() {
       </ul>
       <ul className="d-flex navbar-nav justify-content-center align-items-center">
       <li className="nav-item">
-          <a className="nav-link" href="#myCertificates">
+          <a className="nav-link" href="/">
             Home
           </a>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" href="#myCertificates">
+          <a className="nav-link" href="/blog">
             Blog
           </a>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" href="#services">
+          <a className="nav-link" href="/about">
            About
           </a>
         </li>
@@ -45,13 +45,13 @@ function MainMenu() {
 
 
         <li className="nav-item">
-          <a className="nav-link" href="#myCertificates">
+          <a className="nav-link" href="/menu">
             Menu
           </a>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" href="#myCertificates">
+          <a className="nav-link" href="contact-us">
             BNB and TRIP Plan
           </a>
         </li>
