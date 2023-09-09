@@ -26,13 +26,13 @@ const Blog = () => {
        <a href=""><img src={post.img} className='card-img-top' alt='...' /></a> 
         <div className='card-body'>
         
-          <h4 className='card-text text-dark'> <a href={post.url}> {post.title} </a> </h4>
-          <small>  {post.author} | {post.date}</small>
+          <h4 style={{lineHeight:'18px'}}  className='card-text text-dark'> <a style={{color:'inherit',fontSize:'18px'}} href={post.url}> {post.title} </a> </h4>
+          <small style={{fontSize:'13px'}}>By  {post.author} | {post.date}</small>
          
         </div>
 
         <div className='text-center'>
-        <p className='card-text text-dark'> {post.desc}  </p>
+        <p className='card-text text-dark' style={{padding:'5px 5px 5px 5px',color:'#121212',textAlign:'left'}} > {post.desc}  </p>
         </div>
         </div>      
 

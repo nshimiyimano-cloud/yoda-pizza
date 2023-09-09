@@ -8,18 +8,20 @@ import OurPlaces from '../home/OurPlaces';
 
 function AboutUs() {
   return (
-    <section>
-      <div className='about-page top-banner-image'>
+    <section className='about-page'>
+      <div className='top-banner-image'>
         <p>About</p>
         <div style={{width:'100%',height:'100%',zIndex:0,position:'absolute',top:0,bottom:0,left:0,backgroundColor:'rgba(0, 0, 0, 0.4)'}}></div>
       </div>
+
+      <div className='article mx-auto' style={{width: '92%',marginTop:'50px',marginBottom:'90px'}}>
        
        <h2>Our History</h2>
 
 
       <div className='row'>
 
-      <div className='col-xs-12 col-sm-12 col-md-8 col-lg-8'>     
+      <div className='col-xs-12 col-sm-12 col-md-8 col-lg-6'>     
 
       <p>
       We're proud to serve you a variety of great food, including spaghetti, pizza, coffee and tea. 
@@ -66,15 +68,15 @@ function AboutUs() {
         </div>
 
 
-        <div className='col-xs-12 col-sm-12 col-md-4 col-lg-4'> 
-        <img src={caputeDeTela} alt="" width={'100%'} />       
+        <div className='col-xs-12 col-sm-12 col-md-4 col-lg-6 d-flex align-items-center'> 
+        <img src={caputeDeTela} alt="" style={{width:'100%'}} />       
 
        </div>
 
 
       </div>
 
-      
+      </div>
       <CustomersComment />
       <OurPlaces />
 
