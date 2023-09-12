@@ -1,0 +1,13 @@
+
+
+.contact form input,.contact form textarea{
+    border: 1px solid #095c91;
+    outline: none;
+  }
+  
+  .contact form input:focus,.contact form textarea:focus{
+    border: 1px solid red;
+    outline: none;
+    box-shadow: unset;
+  }
+  

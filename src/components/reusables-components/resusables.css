@@ -1,0 +1,61 @@
+.customers-comment{   
+    background-image: url("./assets/Images/comments-img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;   
+   
+  }
+  
+  .customers-comment .comment-box{
+    background-color: #000;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    width: 30%;
+    font-size: 24px;
+    padding: 20px;
+  }
+  .customers-comment .comment-box span{
+    color: #e11736;
+    font-size: 18px;
+  
+  }
+  
+  .client-wrapper{
+    width: 98%;
+    background-image:linear-gradient(90deg,rgb(153, 112, 192),rgb(151, 170, 219),rgb(180,146,144),rgb(227, 223, 177),rgb(151, 170, 219),rgb(153, 112, 192));
+  }
+  
+  .client-wrapper .yoda-reviews{
+    width: 300px;
+    
+  }
+  .client-wrapper .clients-slides{
+    width:80%;
+  }
+  
+  .client-wrapper .testimonial-card{
+    height: 250px;
+    width: 320px;
+    padding: 5px 15px 0 15px;  
+    background-color:#fff
+  }
+  
+  .client-wrapper .testimonial-card span.t-name{
+    color: #154fc1!important; 
+    font-size: 15px;
+    line-height: 24px!important;
+    font-weight: 900;
+  }
+  .client-wrapper .testimonial-msg{
+    height: 120px;
+    overflow: auto !important;
+    color: #222!important;
+    font-size: 15px!important;
+    line-height: 24px!important;
+    max-width: 100%!important;
+    white-space: pre-wrap!important;
+    word-break: break-word!important;
+    
+  }

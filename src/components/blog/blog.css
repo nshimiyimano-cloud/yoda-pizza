@@ -1,0 +1,25 @@
+.top-banner-image{  
+    background-image: url("../../assets/Images/blog_images/menu-banner-img1.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: top right;
+    
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -54px;
+    }
+  
+  .top-banner-image>p{
+    font-size: 40px;
+    font-family: Raleway;
+    color: #fff;
+    font-weight: 500;
+    z-index: 2;
+  }
+  
+  .blog-page .card{
+    width:400px;
+  }

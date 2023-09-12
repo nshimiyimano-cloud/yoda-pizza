@@ -1,0 +1,43 @@
+/*  styles for let-chat component */
+
+.let-chat{   
+    background-image: url("./assets/Images/finder-img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;  
+ }
+
+/*   fastest delivery component styles */
+
+.fastest-delivery h1{
+  font-family: Kaushan Script;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+/*   our place component styles */
+
+  .our-place .image-box p{
+    font-family: Raleway;
+    font-size: 18px;
+    color: #000000ff;
+    text-align: left;
+    padding: 15px 50px 15px 0;
+  }
+
+  .our-place .image-box img{
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+    
+  }
+  
+
+  .our-place .image-box h3{
+    border-bottom: 2px dotted rgb(225,23,54);
+    font-size: 24px !important;
+    color: #6c757d;
+    text-align: left;
+    padding: 15px 10px 15px 0;
+  }

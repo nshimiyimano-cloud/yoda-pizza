@@ -1,0 +1,46 @@
+
+/* styles for footer component   */
+  
+
+footer.footer{
+   
+    padding: 50px 0 50px 0; 
+    background: #000;   
+    line-height: 30px;
+
+  }
+  footer.footer p{
+    color: #fff;
+    font-size: 16px;
+    
+  }
+
+  footer.footer .media-body>p{
+    margin-left: 10px;
+  }
+
+  footer.footer h2{
+    color: #ffff;
+    font-size: 40px;
+    font-family: raleway;
+  }
+
+  footer .img-right-footer img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  footer ul{
+    margin-left: 20px;
+  }
+
+  footer .media i,footer ul li{
+    padding-left: 20px;
+  }
+
+  footer .media i,footer ul li i{
+    color: #fff;
+    font-size: 25px;
+    
+  }

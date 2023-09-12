@@ -1,16 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 
-
-
+  /*  my styles for created components*/
+  @import url('../src/components/menu/menu.css');
+  @import url('../src/components/reusables-components/resusables.css');
+  @import url('../src/components/blog/blog.css');
+  @import url('../src/components/home/home_pages.css');
+  @import url('../src/components/bnb_and_trip/contactus.css');
+  @import url('../src/components/home/mainMenu.css');
+  @import url('../src/components/home/footer.css');
+  @import url('../src/components/blog/search-blog.css');
+  @import url('../src/components/home/special-perks.css');
+  @import url('../src/components/home/top-banner-slideshow.css');
+  @import url('../src/components/home/special-food-creation.css');
 
 *{
     color:#000000ff;
     box-sizing: border-box;
     font-size: 18px;
     animation: 1.5s ease-out 0s 1 slideInFromLeft;
-  }
-  
+  }  
   
   html, body { height: 100%; }
   body { margin: 0;   margin: 0;  margin: 0;font-family: Raleway, "Helvetica Neue", sans-serif; }
@@ -20,14 +29,11 @@
     font-size: 24px;
     color: #e11736ff;
     font-weight: 600;
-  }
+    }
 
   body a{
-    text-decoration: none;
-    
+    text-decoration: none;    
   }
-
-
 
   body h2{
     font-family: Kaushan Script;
@@ -38,544 +44,31 @@
 
 
 
-
-nav{
-  background: #095c91;
-  
-}
-
-
-nav ul li.nav-item  a{
-  color: #fff; 
-  padding: 10px 25px;
-}
-
-ul li.nav-item  a:hover{
-  background: red;
-
-}
-
- /* toggle bar styles */
- .navbar-toggler.nav-toggle-btn {
-  background: #159fdb;
-  padding: 10px 10px 5px 10px;
-  border: none;
-  outline: unset;
-  border-radius: 0px;
-  transition: unset;
-  transform: unset;
- }
- 
- .navbar-toggler.nav-toggle-btn:focus {
-  border: none;
-  outline: none;
- }
- 
- 
- .navbar-toggler.nav-toggle-btn > .bar-line {
-  width: 30px;
-  height: 6px;
-  margin-bottom: 3px;
-  background-color: #000;
- }
-
-
-
-
- /*  styles for let-chat component */
-
- .let-chat{  
- 
-    background-image: url("./assets/Images/finder-img1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-      
-   
- }
-
-
-/* styles for footer component   */
-  
-
-  footer.footer{
-   
-    padding: 50px 0 50px 0; 
-    background: #000;   
-    line-height: 30px;
-
-  }
-  footer.footer p{
-    color: #fff;
-    font-size: 16px;
-    
-  }
-
-  footer.footer .media-body>p{
-    margin-left: 10px;
-  }
-
-  footer.footer h2{
-    color: #ffff;
-    font-size: 40px;
-    font-family: raleway;
-  }
-
-  footer .img-right-footer img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-
-  footer ul{
-    margin-left: 20px;
-  }
-
-  footer .media i,footer ul li{
-    padding-left: 20px;
-  }
-
-  footer .media i,footer ul li i{
-    color: #fff;
-    font-size: 25px;
-    
-  }
-
-/*   fastest delivery component styles */
-
-.fastest-delivery h1{
-  font-family: Kaushan Script;
-    font-weight: 900;
-    font-size: 45px;
-}
-
-
-
-
-  
-/*   our place component styles */
-
-  .our-place .image-box p{
-    font-family: Raleway;
-    font-size: 18px;
-    color: #000000ff;
-    text-align: left;
-    padding: 15px 50px 15px 0;
-  }
-
-  .our-place .image-box img{
-    width:100%;
-    height: 250px;
-    object-fit: cover;
-    
-  }
-  
-
-  .our-place .image-box h3{
-    border-bottom: 2px dotted rgb(225,23,54);
-    font-size: 24px !important;
-    color: #6c757d;
-    text-align: left;
-    padding: 15px 10px 15px 0;
-  }
-
-
-  /*  special perks styles  */
-
-
-  .special-perks .s-perks-wrapper{
-    margin:auto;
-    width:90%;
-    
-  }
-
-  .special-perks .image-card{
-    position: relative;
-    background: #095c91;
-    color: #fff;
-    padding: 10px 10px 0 10px;
-    margin: 0 10px 20px 0;
-    transition: all 1.5s ease-out;
-
-  }
-
-  .special-perks .image-card img{
-   
-    width:100%;
-    height: 350px;
-    object-fit: cover;
-    
-  }
-
-  h2.image-card-title{
-    color:#fff;
-    padding: 10px 0 5px 0;
-    font-weight: 400;
-  }
-
-  h2.move-top{
-    font-family: unset;
-    transform: translateY(-40px);
-  }
-
-
-  .special-perks .s-perks-wrapper .image-card-overlay{
-    position: absolute;  
-    width:0;
-    height: 0;
-   padding-top:150px;
-    top:12px;
-    left: 10px;
-    background: rgba(255, 255, 255, 0.7);    
-    z-index: 1; 
-    display: none;
-    transition:all 2.5s ease-out;  
-    animation:expandoverlay forwards 0.5s ease-out;
-   }
-
-   .special-perks .s-perks-wrapper .image-card-overlay h2{
-    color: red;
-    margin-bottom: 50px;
-      
-   }
-
-   .special-perks .image-card:hover .image-card-overlay{
-    display: block;
-    width:98%;
-    height: 395px;
-    top:10px;
-   }
-
-   .special-perks .image-card:hover  h2.image-card-title{
-    visibility: hidden;
-    padding: unset;  
-
-   }
-
-   @keyframes expandoverlay{
-    from{transform: scale(0.5);}
-    to{ transform: scale(1);}
-    
-    
-   }
-
-
-   /* styles for epecial food creation component  */
-
-   .special-food-creation .s-creation-wrapper{
-    width:90%;   
-   }
-
-   .s-creation-wrapper .food-creation-card{
-   border: 12px solid #095c91;
-   border-radius: 30px;
-   transition:border  0.5s ease-out;  
-   overflow: hidden;
-   margin-bottom: 20px;
-   }
-
-
-   .s-creation-wrapper .food-creation-card img{
-    width: 100%;
-    height: 270px;
-    border-bottom:5px solid rgba(9,92,145,0.40);
-    transition:all  1s ease-out;    
-    
-   }
-
-   .s-creation-wrapper .food-creation-card .btn{
-    background: #095c91;
-    color: #fff;
-    border-radius: unset;    
-    outline-offset: 1px;
-    outline-style: solid;
-    outline-color: #095c91;
-    outline-width: 2px;
-    transition:background-color 0.5s ease-out;  
-
-   }
-   .s-creation-wrapper .food-creation-card:hover{
-    border: 12px solid #ff6900;;
-
-   }
-
-   .s-creation-wrapper .food-creation-card:hover img{
-    transform: scale(1.1);
-    border-bottom: unset;
-    
-  
-   }
-   .food-creation-card .btn:hover{
-    background: #ff6900;;
-   }
-
-   
-   /* stylinng for top-banner-slideshow */
-
-   .top-banner-slideshow{
-      transform: translateY(-55px);
-      position: relative;
-   }
-   .top-banner-slideshow img{
-    object-fit: cover;
-    width:100%;
-    object-position: center;
-    height: 650px;    
-   }
-
-
-   .top-banner-slideshow #letTopInSlide{
-    
-    position: absolute;
-    border-radius: 50%;
-    border: 10px solid #095c91;
-    height: 250px;
-    width: 33em;
-    z-index: 2;
-    background: rgba(255, 255, 255, 0.7);
-    left:20em;
-    top: 7em;
-    
-
-   }
-
-
-   .top-banner-slideshow #rightBottomInSlide{
-    position: absolute;
-    border: 8px solid #fff;
-    height: 170px;
-    width: 31em;
-    z-index: 2;
-    background: #095c91;
-    padding: 30px 0 0 10px;
-    bottom: 2em;
-    right: 22em;   
-    
-  }
-
-
-
-
-   .customers-comment{   
-  background-image: url("./assets/Images/comments-img1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;   
- 
-}
-
-.customers-comment .comment-box{
-  background-color: #000;
-  margin-bottom: 20px;
-  border: 5px solid #fff;
-  border-radius: 20px;
-  width: 30%;
-  font-size: 24px;
-  padding: 20px;
-}
-.customers-comment .comment-box span{
-  color: #e11736;
-  font-size: 18px;
-
-}
-
-.client-wrapper{
-  width: 98%;
-  background-image:linear-gradient(90deg,rgb(153, 112, 192),rgb(151, 170, 219),rgb(180,146,144),rgb(227, 223, 177),rgb(151, 170, 219),rgb(153, 112, 192));
-}
-
-.client-wrapper .yoda-reviews{
-  width: 300px;
-  
-}
-.client-wrapper .clients-slides{
-  width:80%;
-}
-
-.client-wrapper .testimonial-card{
-  height: 250px;
-  width: 320px;
-  padding: 5px 15px 0 15px;  
-  background-color:#fff
-}
-
-.client-wrapper .testimonial-card span.t-name{
-  color: #154fc1!important; 
-  font-size: 15px;
-  line-height: 24px!important;
-  font-weight: 900;
-}
-.client-wrapper .testimonial-msg{
-  height: 120px;
-  overflow: auto !important;
-  color: #222!important;
-  font-size: 15px!important;
-  line-height: 24px!important;
-  max-width: 100%!important;
-  white-space: pre-wrap!important;
-  word-break: break-word!important;
-  
-}
-
-.top-banner-image{  
-  background-image: url("./assets/Images/blog_images/menu-banner-img1.jpg.webp");
-  background-repeat: no-repeat;
-  background-size: cover;  
-  background-position: top right;
-  
-  height: 350px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-top: -54px;
-  }
-
-.top-banner-image>p{
-  font-size: 40px;
-  font-family: Raleway;
-  color: #fff;
-  font-weight: 500;
-  z-index: 2;
-}
-
-.blog-page .card{
-  width:400px;
-}
-/*  2739   */
-
-ul li{
-  position: relative;
-}
-
-.our-pizza-menu li,.pizza-menu li,.spaghet-menu li{
-  border-bottom: 5px dotted #095c91;
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-
-.our-pizza-menu  li>h6,.pizza-menu li>h6,.spaghet-menu li>h6{
-  color: #095c91;
-  font-size: 24px !important;  
-  font-weight: unset;
-  
-}
-
-.our-pizza-menu li .color-red ,.pizza-menu li .color-red{
-  color: #e11736ff;
-
-}
-
-
-
-.our-pizza-menu  li::before,.pizza-menu li::before,.spaghet-menu li::before{
-  content: "\2739";
-  position: absolute;
-  left:-50px;
-  font-size: 50px;
-  color: #ff6900;
-}
-
-
-.coffee-menu li::before,.tea-menu li::before{
-  content: "\2739";
-  position: absolute;
-  left:-50px;
-  font-size: 50px;
-  color: #4e3321;
-}
-
-.coffee-menu li h6,.tea-menu li h6{
-  color: #4e3321;;
-  font-size: 24px !important;  
-  font-weight: unset;
-
-
-}
-.coffee-menu li,.tea-menu li{
-padding-bottom: 30px;
-padding-top: 30px;
-}
-
-
-.drink-menu  li>h6{
-  color: #213a4e;
-  font-size: 24px !important;  
-  font-weight: unset;  
-}
-
-.drink-menu li{
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-
-
-.drink-menu li::before{
-  content: "\2739";
-  position: absolute;
-  left:-50px;
-  font-size: 50px;
-  color: #213a4e;
-}
-
-h2.border-box{
-  border-style: double;
-  width: 90%;
-  margin: auto;
-}
-
-.contact form input,.contact form textarea{
-  border: 1px solid #095c91;
-  outline: none;
-}
-
-.contact form input:focus,.contact form textarea:focus{
-  border: 1px solid red;
-  outline: none;
-  box-shadow: unset;
-}
-
-
-
-
-
-
-
-
-
   @media only screen and (max-width: 950px) {
-
     .top-banner-slideshow #letTopInSlide,.top-banner-slideshow #rightBottomInSlide{    
     left: 20px;
     right: unset;
     width: 85%;
-
    }
+
    .customers-comment .comment-box{
     width: 83%;
    }
    .customers-comment .comment-container {
-    flex-direction: column;   
-
+    flex-direction: column; 
    }
 
    .client-wrapper{
     flex-direction: column;
    }
-
-.client-wrapper .testimonial-card{
-  
+.client-wrapper .testimonial-card{  
   width: 95%;
-  padding-left: 10px;   
-  
+  padding-left: 10px;     
 }
 .client-wrapper .clients-slides{
   width:100%;
 }
-
-  }
+}
   
 
 
