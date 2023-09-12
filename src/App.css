@@ -444,6 +444,98 @@ ul li.nav-item  a:hover{
 .blog-page .card{
   width:400px;
 }
+/*  2739   */
+
+ul li{
+  position: relative;
+}
+
+.our-pizza-menu li,.pizza-menu li,.spaghet-menu li{
+  border-bottom: 5px dotted #095c91;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.our-pizza-menu  li>h6,.pizza-menu li>h6,.spaghet-menu li>h6{
+  color: #095c91;
+  font-size: 24px !important;  
+  font-weight: unset;
+  
+}
+
+.our-pizza-menu li .color-red ,.pizza-menu li .color-red{
+  color: #e11736ff;
+
+}
+
+
+
+.our-pizza-menu  li::before,.pizza-menu li::before,.spaghet-menu li::before{
+  content: "\2739";
+  position: absolute;
+  left:-50px;
+  font-size: 50px;
+  color: #ff6900;
+}
+
+
+.coffee-menu li::before,.tea-menu li::before{
+  content: "\2739";
+  position: absolute;
+  left:-50px;
+  font-size: 50px;
+  color: #4e3321;
+}
+
+.coffee-menu li h6,.tea-menu li h6{
+  color: #4e3321;;
+  font-size: 24px !important;  
+  font-weight: unset;
+
+
+}
+.coffee-menu li,.tea-menu li{
+padding-bottom: 30px;
+padding-top: 30px;
+}
+
+
+.drink-menu  li>h6{
+  color: #213a4e;
+  font-size: 24px !important;  
+  font-weight: unset;  
+}
+
+.drink-menu li{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+
+.drink-menu li::before{
+  content: "\2739";
+  position: absolute;
+  left:-50px;
+  font-size: 50px;
+  color: #213a4e;
+}
+
+h2.border-box{
+  border-style: double;
+  width: 90%;
+  margin: auto;
+}
+
+.contact form input,.contact form textarea{
+  border: 1px solid #095c91;
+  outline: none;
+}
+
+.contact form input:focus,.contact form textarea:focus{
+  border: 1px solid red;
+  outline: none;
+  box-shadow: unset;
+}
 
 
 

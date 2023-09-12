@@ -10,13 +10,18 @@ const ContactUs = () => {
       <div style={{width:'100%',height:'100%',zIndex:0,position:'absolute',top:0,bottom:0,left:0,backgroundColor:'rgba(0, 0, 0, 0.4)'}}></div>
     </div>
 
-    <h2>Everything for your Travel</h2>
-    <h1>BNB</h1>
+ <div className='article mx-auto' style={{width: '92%',marginTop:'50px',marginBottom:'90px'}}>
+       
+
+   
 
 
-<div className='row'>
+<div className='row mb-5 mt-5'>
 
-<div className='col-xs-12 col-sm-12 col-md-8 col-lg-8'>   
+<div className='col-xs-12 col-sm-12 col-md-8 col-lg-6 mb-3'>   
+
+<h2 style={{fontSize:'45px',color:'#095c91ff'}}>Everything for your Travel</h2>
+    <h1 className='text-center mb-5'  style={{color:'#000000ff',fontSize:'72px',fontWeight:900}}>BNB</h1>
 <p>Our B&Bs in Vietnam are the perfect place to stay while you're exploring the country. From charming Nha Trang to bustling Ho Chi Minh City, we have a place that's just right for you—and at prices that won't break the bank.
 
 From comfortable beds and private bathrooms to kitchens stocked with everything you need to cook your own meals,
@@ -44,7 +49,7 @@ your trip
   </div>
 
 
-  <div className='col-xs-12 col-sm-12 col-md-4 col-lg-4'> 
+  <div className='col-xs-12 col-sm-12 col-md-4 col-lg-6 d-flex align-items-center mb-3'> 
   <img src={caputeDeTela} alt="" width={'100%'} />       
 
  </div>
@@ -63,17 +68,21 @@ your trip
 
 <div className='row'>
 
-<div className='col-xs-12 col-sm-12 col-md-6 col-lg-6'>  
+<div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-5'>  
 <form action="">
   <input type="text" name='name' placeholder='Name' className='form-control mb-2' />
   <input type="email" name='email' placeholder='Name' className='form-control mb-2' />
   <textarea name="message" id="" cols="30" rows="10" className='form-control mb-2'></textarea>
-  <button className='btn btn-primary' type="submit">Submit</button>
+  <button 
+  style={{paddingTop:'10px',paddingRight:'110px',
+  paddingBottom:'10px',paddingLeft:'110px',
+  backgroundColor:'#095c91', color:'#ffffff'}} 
+  type="submit" className='btn'>Submit</button>
 </form>
 
 </div>
 
-<div className='col-xs-12 col-sm-12 col-md-6 col-lg-6'>  
+<div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-5'>  
 <iframe 
              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d65240045.046066254!2d57.05977468536245!3d3.6020536723393684!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317067efcf111b83%3A0x2b0dcc8fcbfc96ee!2zNjIvNSDEkOG6t25nIFThuqV0LCBWxKluaCBI4bqjaSwgTmhhIFRyYW5nLCBLaMOhbmggSMOyYSA2NTAwMDAsIFZpZXRuYW0!5e0!3m2!1sen!2sus!4v1693934430301!5m2!1sen!2sus"
              width={'100%'}
@@ -92,6 +101,7 @@ your trip
 
 </div>
 
+</div>
 </div>
     
 
