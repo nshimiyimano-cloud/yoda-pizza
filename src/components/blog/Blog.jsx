@@ -1,5 +1,6 @@
 import React from 'react';
 import { blogPost } from '../index'
+import SearchBlog from './search-blog';
 
 
 
@@ -15,7 +16,8 @@ const Blog = () => {
         <div style={{width:'100%',height:'100%',zIndex:0,position:'absolute',top:0,bottom:0,left:0,backgroundColor:'rgba(0, 0, 0, 0.4)'}}></div>
 
       </div>
-      <div className='container d-flex justify-content-between flex-wrap mt-5 mb-5'>
+      <p className='mt-5' style={{fontSize:'35px',marginLeft:'40%'}}>Blog</p>
+      <div className='blog-wrapper d-flex justify-content-between flex-wrap mt-5 mb-5'>
 
         {
           blogPost.map(post=>{
@@ -45,12 +47,10 @@ const Blog = () => {
 
 
 
-      
+      </div>
 
-
-      </div>  
-
-
+<SearchBlog />
+       
   </section>
   )
 }

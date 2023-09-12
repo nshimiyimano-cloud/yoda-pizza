@@ -43,8 +43,8 @@
   }
 
 
-
   @media only screen and (max-width: 950px) {
+
     .top-banner-slideshow #letTopInSlide,.top-banner-slideshow #rightBottomInSlide{    
     left: 20px;
     right: unset;
@@ -67,6 +67,19 @@
 }
 .client-wrapper .clients-slides{
   width:100%;
+}
+
+.blog-page .blog-wrapper{
+  width:90%;
+  margin:auto;
+}
+
+/* blog right sidebar styles*/
+.search-container{
+  position:relative;
+  top: unset;
+  margin: 60px auto;
+  width:70%;
 }
 }
   

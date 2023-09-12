@@ -11,6 +11,11 @@
     position: relative;
     margin-top: -54px;
     }
+
+    .blog-page .blog-wrapper{
+      width:60%;
+      margin-left:10%;
+    }
   
   .top-banner-image>p{
     font-size: 40px;
@@ -21,5 +26,5 @@
   }
   
   .blog-page .card{
-    width:400px;
+    width:350px;  
   }

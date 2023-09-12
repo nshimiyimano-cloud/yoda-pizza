@@ -69,7 +69,8 @@ export const blogPost=[
     desc:'',
     author:' pierrecarvalho2003',
     date:'3 Aug, 23',
-    url:''
+    url:'',
+    category:'Restaurants'
   },
   {
     id:2,
@@ -78,7 +79,9 @@ export const blogPost=[
     desc:'',
     author:' pierrecarvalho2003',
     date:'3 Aug, 23',
-    url:''
+    url:'',
+    category:'Restaurants'
+
   },
   {
     id:3,
@@ -87,7 +90,9 @@ export const blogPost=[
     desc:'',
     author:' pierrecarvalho2003',
     date:'3 Aug, 23',
-    url:''
+    url:'',
+    category:'Restaurants'
+
   },
   {
     id:4,
@@ -96,7 +101,9 @@ export const blogPost=[
     desc:'',
     author:' pierrecarvalho2003',
     date:'3 Aug, 23',
-    url:''
+    url:'',
+    category:'Restaurants'
+
   },
   {
     id:5,
@@ -105,7 +112,9 @@ export const blogPost=[
     desc:'',
     author:' pierrecarvalho2003',
     date:'2 Aug, 23',
-    url:''
+    url:'',
+    category:'Restaurants'
+
   },
   {
     id:6,
@@ -114,16 +123,18 @@ export const blogPost=[
     desc:`It is a long established fact that a reader will be distracted by the readable content of a page`,
     author:'Nik',
     date:'27 Oct, 22',
-    url:''
+    url:'',
+    category:'Events'
   },
   {
     id:7,
     img:p_blog3,
-    title:'It is a long established fact that a reader will be distracted by the readable content of a page',
+    title:'Enjoy your Meal with your Family this Wednesday',
     desc:`It is a long established fact that a reader will be distracted by the readable content of a page when looking.`,
     author:'Nik',
     date:'27 Oct, 22',
-    url:''
+    url:'',
+    category:'Pizza Meal'
   },
   {
     id:8,
@@ -132,7 +143,9 @@ export const blogPost=[
     desc:`Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin.`,
     author:'Nik',
     date:'27 Oct, 22',
-    url:''
+    url:'',
+    category:'Restaurants'
+
   },
   {
     id:9,
@@ -141,7 +154,8 @@ export const blogPost=[
     desc:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's .`,
     author:' pierrecarvalho2003',
     date:' Aug, 23',
-    url:''
+    url:'',
+    category:'Pizza'
   },
   {
     id:10,
@@ -150,7 +164,9 @@ export const blogPost=[
     desc:'',
     author:'Nik',
     date:'27 Oct, 22',
-    url:''
+    url:'',
+    category:'Uncategorized'
+
   }
 ]
 
@@ -417,6 +433,15 @@ export const otherDrinks=[
 }
 
 ]
+
+/* code to search from blogPost array and return unique category to display on client  */
+export const uniqueCategory = [];
+blogPost.map(cat => {
+    if (uniqueCategory.indexOf(cat.category) === -1) {
+        uniqueCategory.push(cat.category)
+
+    }
+});
 
 
 
