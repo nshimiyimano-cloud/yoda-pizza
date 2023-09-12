@@ -1,9 +1,6 @@
-
-
 ul li{
     position: relative;
-  }
-  
+  }  
   .our-pizza-menu li,.pizza-menu li,.spaghet-menu li{
     border-bottom: 5px dotted #095c91;
     padding-bottom: 30px;
@@ -13,16 +10,12 @@ ul li{
   .our-pizza-menu  li>h6,.pizza-menu li>h6,.spaghet-menu li>h6{
     color: #095c91;
     font-size: 24px !important;  
-    font-weight: unset;
-    
+    font-weight: unset;    
   }
   
   .our-pizza-menu li .color-red ,.pizza-menu li .color-red{
-    color: #e11736ff;
-  
-  }
-  
-  
+    color: #e11736ff;  
+  }  
   
   .our-pizza-menu  li::before,.pizza-menu li::before,.spaghet-menu li::before{
     content: "\2739";
@@ -30,8 +23,7 @@ ul li{
     left:-50px;
     font-size: 50px;
     color: #ff6900;
-  }
-  
+  }  
   
   .coffee-menu li::before,.tea-menu li::before{
     content: "\2739";
@@ -44,16 +36,12 @@ ul li{
   .coffee-menu li h6,.tea-menu li h6{
     color: #4e3321;;
     font-size: 24px !important;  
-    font-weight: unset;
-  
-  
+    font-weight: unset;  
   }
   .coffee-menu li,.tea-menu li{
   padding-bottom: 30px;
   padding-top: 30px;
-  }
-  
-  
+  }  
   .drink-menu  li>h6{
     color: #213a4e;
     font-size: 24px !important;  
@@ -63,8 +51,7 @@ ul li{
   .drink-menu li{
     padding-bottom: 30px;
     padding-top: 30px;
-  }
-  
+  } 
   
   .drink-menu li::before{
     content: "\2739";

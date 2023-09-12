@@ -5,7 +5,6 @@ import AboutUs from './components/about/AboutUs.jsx';
 import Menu from './components/menu/Menu.jsx';
 import Blog from './components/blog/Blog.jsx';
 import ContactUs from './components/bnb_and_trip/ContactUs.jsx'
-import './index.css'
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 
 

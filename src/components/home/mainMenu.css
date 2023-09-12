@@ -1,9 +1,7 @@
 
 nav{
-    background: #095c91;
-    
-  }
-  
+    background: #095c91;    
+  }  
   
   nav ul li.nav-item  a{
     color: #fff; 
@@ -11,8 +9,7 @@ nav{
   }
   
   ul li.nav-item  a:hover{
-    background: red;
-  
+    background: red;  
   }
   
    /* toggle bar styles */
@@ -29,9 +26,7 @@ nav{
    .navbar-toggler.nav-toggle-btn:focus {
     border: none;
     outline: none;
-   }
-   
-   
+   }   
    .navbar-toggler.nav-toggle-btn > .bar-line {
     width: 30px;
     height: 6px;
