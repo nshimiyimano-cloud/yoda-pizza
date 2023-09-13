@@ -444,6 +444,22 @@ blogPost.map(cat => {
 });
 
 
+/* Logic related to open and close menus on mobile screen */
+
+export const openMenus=()=>{
+  const mobileMenus=document.getElementById('mMenus');
+  mobileMenus.style.display='block';
+  mobileMenus.style.width='300px';
+
+}
+
+export const closeMenus=()=>{  
+  const mobileMenus=document.getElementById('mMenus');
+  mobileMenus.style.width='0px';
+
+}
+
+
 
  export default testimonials;
  
