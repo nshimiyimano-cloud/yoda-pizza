@@ -4,6 +4,8 @@ import App from './App.jsx';
 import AboutUs from './components/about/AboutUs.jsx';
 import Menu from './components/menu/Menu.jsx';
 import Blog from './components/blog/Blog.jsx';
+import NotFound from './components/home/NotFound';
+
 import ContactUs from './components/bnb_and_trip/ContactUs.jsx'
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 
@@ -24,6 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path='about' element={<AboutUs /> }  />
       <Route path='menu' element={<Menu />}  />
       <Route path='contact-us' element={<ContactUs />}  />
+      <Route path='*' element={<NotFound />}  />
 
 
     

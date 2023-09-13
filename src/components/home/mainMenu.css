@@ -1,35 +1,101 @@
 
 nav{
-    background: #095c91;    
-  }  
-  
-  nav ul li.nav-item  a{
-    color: #fff; 
-    padding: 10px 25px;
+  background: #095c91;    
+}  
+
+ul.navbar-nav li a{
+  color: #fff; 
+  padding: 10px 25px;
+}
+
+ul li.nav-item  a:hover{
+  background: red;  
+}
+
+ /* toggle bar styles */
+ .navbar-toggler.nav-toggle-btn {
+  background: #159fdb;
+  padding: 10px 10px 5px 10px;
+  border: none;
+  outline: unset;
+  border-radius: 0px;
+  transition: unset;
+  transform: unset;
+ }
+ 
+ .navbar-toggler.nav-toggle-btn:focus {
+  border: none;
+  outline: none;
+ }   
+ .navbar-toggler.nav-toggle-btn > .bar-line {
+  width: 30px;
+  height: 6px;
+  margin-bottom: 3px;
+  background-color: #000;
+ }
+ 
+ .navbar-mobile{
+  display: none;
+
+ }   
+ 
+ .navbar-mobile span.close-btn{
+   background: rgba(0,0,0,0.21);
+   z-index: 3;
+   font-size: 50px;
+   color: rgba(255,255,255,0.41);
+   font-weight: 900;
+   padding: 1px 15px;
+   height: 50px;
+   display: none;
+   align-items: center;
+   cursor: pointer;
+   position: absolute;
+   left: 0;
+   top: 0;
+   transition: all 0.3s ease-out;
+ }
+
+ .navbar-mobile{
+  display: none;
+  width: 0px;
+  transition: all 0.3s ease-out;
+ }
+
+ .navbar-mobile span.close-btn:hover{
+  background: rgb(64, 28, 28);    
+  color: #fff;  
+}
+.navbar-mobile a{
+  display: none;
+  color: #000;
+}
+
+ @media only screen and (max-width: 990px) {
+ .navbar-mobile{
+  display: block;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    background: #fff;
+    right: 0px;
+    transition: all 1.5s ease-in;
+    bottom: 0px;
+    top: 0px;
+    height: 600px;
+    padding-top: 50px;
+    }
+
+  .navbar-mobile a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
   }
-  
-  ul li.nav-item  a:hover{
-    background: red;  
+
+  .navbar-mobile span.close-btn{
+    display: flex;
   }
-  
-   /* toggle bar styles */
-   .navbar-toggler.nav-toggle-btn {
-    background: #159fdb;
-    padding: 10px 10px 5px 10px;
-    border: none;
-    outline: unset;
-    border-radius: 0px;
-    transition: unset;
-    transform: unset;
-   }
-   
-   .navbar-toggler.nav-toggle-btn:focus {
-    border: none;
-    outline: none;
-   }   
-   .navbar-toggler.nav-toggle-btn > .bar-line {
-    width: 30px;
-    height: 6px;
-    margin-bottom: 3px;
-    background-color: #000;
-   }
+
+
+ }
